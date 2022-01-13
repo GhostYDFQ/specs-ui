@@ -1,0 +1,45 @@
+@import "./color.scss";
+
+$boxShadowColor: #f0f1f2;
+$boxShadow: 0 2px 8px $boxShadowColor;
+
+$theme-default: (
+  '': (
+    colorPrimary: $geek_7,
+    colorSuccess: $cyan_7,
+    colorWarning: $yellow_7,
+    colorError: $red_7,
+    colorInfo: $gray_7,
+
+    disabled: #f5f7fa,
+    disabledLight: #fcfcfc,
+    disableDeep: #c6c6c6,
+    disabledText: #c0c4cc,
+
+    sizeLarge: 40px,
+    sizeNormal: 32px,
+    sizeMini: 28px,
+
+    shapeFillet: 2px,
+    shapeRound: 100px,
+    shapeNone: 0,
+
+    font: '-apple-system,BlinkMacSystemFont,segoe ui,Roboto,helvetica neue,Arial,noto sans,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol,noto color emoji',
+
+    ibc: #dcdfe6,
+    ibl: #ebeef5,
+    itc: #314659,
+    itl: #697b8c,
+    ihc: #000000,
+    ipc: rgba(0, 0, 0, 0.25),
+    icc: rgba(0, 0, 0, 0.45),
+
+    transitionFlexible: cubic-bezier(.24, .22, .015, 1.2),
+    transition: ease,
+    transition2: ease,
+
+    boxshadow: $boxShadow,
+    boxshadowColor: $boxShadowColor,
+    poperRadius: 2px,
+  )
+);

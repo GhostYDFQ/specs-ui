@@ -1,5 +1,5 @@
 <template>
-  <div>demo</div>
+  <div class="app">demo</div>
 </template>
 <script>
 export default {
@@ -12,5 +12,6 @@ export default {
 }
 </script>
 <style lang="scss">
+
 
 </style>

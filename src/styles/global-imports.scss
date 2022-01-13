@@ -1,0 +1,9 @@
+@import "./main.scss";
+
+$themes: map-merge($theme-default, '');
+
+@mixin theme {
+  @each $curThemeName, $curThemeValue in $theme {
+
+  }
+}
